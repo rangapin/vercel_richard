@@ -1,30 +1,20 @@
 ---
-title: Introducing Multi-part Posts with Nested Routing
-date: '2021-05-02'
-tags: ['multi-author', 'next-js', 'feature']
+title: How to Use Laravel for Your Next Project
+date: '2022-12-09'
+tags: ['laravel', 'php', 'framework']
 draft: false
-summary: 'The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!'
+summary: 'What is Laravel? Short Intro and how to install.'
+canonicalUrl: /blog/nested-route/whatislaravel
 ---
 
-# Nested Routes
+# What is Laravel?
 
-The blog template supports posts in nested sub-folders. This helps in organisation and can be used to group posts of similar content e.g. a multi-part series. This post is itself an example of a nested route! It's located in the `/data/blog/nested-route` folder.
+If you are looking for a framework that is easy to use and offers a lot of features, Laravel is the way to go. Laravel is a free, open-source PHP framework that provides expressive, elegant syntax for developing web applications. Laravel was created by Taylor Otwell in 2011 and has since grown to be one of the most popular PHP frameworks currently in use today.
 
-## How
+# Introduction to the Framework
 
-Simplify create multiple folders inside the main `/data/blog` folder and add your `.md`/`.mdx` files to them. You can even create something like `/data/blog/nested-route/deeply-nested-route/my-post.md`
+Laravel has an expressive, elegant syntax that makes it easy to write beautiful, clean code. Laravel also offers out-of-the-box support for many features of modern web development such as routing, authentication, sessions, and more.
 
-We use Next.js catch all routes to handle the routing and path creations.
+# Installing Laravel on Your System
 
-## Use Cases
-
-Here are some reasons to use nested routes
-
-- More logical content organisation (blogs will still be displayed based on the created date)
-- Multi-part posts
-- Different sub-routes for each author
-- Internationalization (though it would be recommended to use [Next.js built-in i8n routing](https://nextjs.org/docs/advanced-features/i18n-routing))
-
-## Note
-
-- The previous/next post links at bottom of the template are currently sorted by date. One could explore modifying the template to refer the reader to the previous/next post in the series, rather than by date.
+Laravel has a large community of developers and contributors, which means it will always be updated with the latest features and bug fixes. It also has an excellent documentation, which makes it easier to learn how to use the framework. Installing Laravel on your system is not difficult at all. All you need is a web server with PHP 5.6 or higher and Composer installed on your system. You can then download the latest version of Laravel from its website.
